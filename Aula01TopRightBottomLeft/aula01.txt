@@ -1,0 +1,9 @@
+TOP, RIGHT, BOTTOM, LEFT:
+    Propriedades como margin, padding e border permitem definirmos valores diferentes para cada um dos lados da caixa
+
+INLINE E BLOCK:
+    Os valores de top, bottom, right e left são relativos ao documento. Para valores relativos a caixa (box) que pode ser influenciada pelo modo de escrita, use:
+        inline-start;
+        inline-end;
+        block-start;
+        block-end;
