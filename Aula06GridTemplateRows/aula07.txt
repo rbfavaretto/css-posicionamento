@@ -1,0 +1,10 @@
+GRID-TEMPLATE-ROWS: 100PX AUTO:
+
+    * grid-template-rows: 100px auto:
+      Define o tamanho das linhas.
+
+    * grid-auto-rows:
+      Linhas são adicionadas automaticamente com o valor de auto.
+
+    * grid-row: 2
+      Define a linha do item, funciona da mesma forma que o grid-column. 
