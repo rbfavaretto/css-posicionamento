@@ -1,0 +1,65 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f7f7f7;
+}
+
+.titulo {
+    text-align: center;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+    h2 {
+        font-size: 15px;
+        text-align: center;
+        padding: 12px 20px;
+        background-color: white;
+        font-weight: 100;
+    }
+}
+
+.parte1 {
+    text-align: right;
+    font-size: 20px;
+    background-color: white;
+    #botaoCompra {
+        color: white;
+        background-color: #ee2211;
+        border-radius: 4px;
+        padding: 10px 20px;
+    }
+}
+
+.foto img{
+    max-width: 100%;
+    width: 450px
+}
+
+.corpo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+.parte3 {
+    text-align: right;
+}
+
+.parte4 {
+    grid-column: 4;
+}
+
+footer {
+    text-align: center;
+}
