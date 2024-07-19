@@ -1,6 +1,7 @@
 html {
     font-family: Arial, Helvetica, sans-serif;
     background: #f7f7f7;
+    margin: 0px;
 }
 
 .titulo {
@@ -28,7 +29,19 @@ a {
     }
 }
 
+
+
+.corpo {
+    display: grid;
+    grid-template-columns: 450px 450px;
+    padding: 20px 20px 60px 20px;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
 .parte1 {
+    width: 100%;
     text-align: right;
     font-size: 20px;
     background-color: white;
@@ -37,29 +50,48 @@ a {
         background-color: #ee2211;
         border-radius: 4px;
         padding: 10px 20px;
+        margin: 15px;
+    }
+    
+    h2 {
+        padding: 40px 15px 0px 0px;
+    }
+    
+    p {
+        padding: 10px 15px 10px 10px;
     }
 }
 
-.foto img{
+.parte2 img{
     max-width: 100%;
-    width: 450px
-}
-
-.corpo {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-    padding: 20px;
+    width: 100%
 }
 
 .parte3 {
+    padding: 60px 15px;
     text-align: right;
+    font-size: 38px;
+    color: #c6c6c6;
 }
 
 .parte4 {
-    grid-column: 4;
+    background-color: white;
+        margin: 0px;
+        padding: 45px 50px 0px 50px;
+        h3, p {
+            margin: 0px;
+        }
+        h3 {
+            padding-bottom: 10px;
+        }
+        p {
+            padding-bottom: 25px;
+        }  
 }
 
 footer {
     text-align: center;
+    background-color: white;
+    padding: 20px 0px 10px 0px;
+    font-size: 20px;
 }
