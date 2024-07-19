@@ -107,9 +107,25 @@ a {
         }
 }
 
+span {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: -700px;
+    p {
+        font-size: 1px;
+    border: 3px solid #ee2211;
+    background: #ee2211;
+    color: #ee2211;
+    width: 50px;
+    
+    }
+}
+
 footer {
     text-align: center;
     background-color: white;
     padding: 20px 0px 10px 0px;
     font-size: 20px;
 }
+
