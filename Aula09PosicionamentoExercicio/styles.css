@@ -18,6 +18,7 @@ a {
 .cabecalho {
     display: flex;
     flex-wrap: wrap;
+    /* responsividade ideal: quebrar a linha e alinhar elementos ao centro */
     gap: 20px;
     justify-content: center;
     
@@ -35,6 +36,8 @@ a {
 .corpo {
     display: grid;
     grid-template-columns: 450px 450px;
+    /* ou: grid-template-columns: 1fr 1fr; 
+           max-width 1000px; */
     padding: 20px 20px 60px 20px;
     justify-content: center;
     margin-top: 20px;
@@ -64,6 +67,7 @@ a {
 }
 
 .parte2 img{
+    display: block;
     max-width: 100%;
     width: 100%;
 }
@@ -118,6 +122,11 @@ span {
     background: #ee2211;
     color: #ee2211;
     width: 50px;
+    /* ou, para desenhar o elemento linha: 
+    width: 60px;
+    height: 4px;
+    background: #e21
+    display: inline-block */
     
     }
 }
@@ -127,5 +136,6 @@ footer {
     background-color: white;
     padding: 20px 0px 10px 0px;
     font-size: 20px;
+    /* box-sizing: border-box; */
 }
 
